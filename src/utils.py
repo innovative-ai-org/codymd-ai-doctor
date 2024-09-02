@@ -197,7 +197,7 @@ def refresh_view():
         }
     ])
 
-
+# basic url for the environment
 def base_url():
     if os.getenv('ENVIRONMENT', 'dev') == 'production':
         return "https://cody.md/"
